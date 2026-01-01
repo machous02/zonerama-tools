@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "Zonerama tools",
+    "version": "1.0",
+    "description": "Modify Zonerama web gallery experience.",
+    "icons": {
+        "30": "icons/z-30.png"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*.zonerama.com/*"
+            ],
+            "js": [
+                "zonerama-tools.js"
+            ],
+            "css": [
+                "zonerama-tools.css"
+            ]
+        }
+    ]
+}

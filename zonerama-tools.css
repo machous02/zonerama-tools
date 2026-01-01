@@ -1,0 +1,10 @@
+.caption>.share-a {
+    position: absolute;
+    right: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.caption>.share-a>.icon-download {
+    font-size: 3vw !important;
+}
