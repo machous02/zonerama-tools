@@ -21,7 +21,11 @@
     ],
     "browser_specific_settings": {
         "gecko": {
-            "id": "@zonerama-tools"
+            "id": "@zonerama-tools",
+            "data_collection_permissions": {
+                "required": [],
+                "optional": []
+            }
         }
     }
 }
