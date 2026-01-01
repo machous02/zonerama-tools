@@ -18,5 +18,10 @@
                 "zonerama-tools.css"
             ]
         }
-    ]
+    ],
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "zonerama-tools"
+        }
+    }
 }
