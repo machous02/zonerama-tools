@@ -23,8 +23,9 @@
         "gecko": {
             "id": "@zonerama-tools",
             "data_collection_permissions": {
-                "required": [],
-                "optional": []
+                "required": [
+                    "none"
+                ]
             }
         }
     }
